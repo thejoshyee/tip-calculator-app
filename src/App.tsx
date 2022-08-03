@@ -48,15 +48,16 @@ function App() {
           </div>
 
 
-          <div className='calc-card__total'>
+          <div className='calc-card__total-num-container'>
 
-            <div className='calc-card__total-title-container'>
-              <p className='calc-card__total-title'>Total</p>
-              <p className='calc-card__total-subtitle'>/ person</p>
-            </div>
-
+            <div className='calc-card__total-num-container'>
+              
+              <div className="calc-card__total-num-title-container">
+                <p className='calc-card__total-title'>Total</p>
+                <p className='calc-card__total-subtitle'>/ person</p>
+              </div>
               <p className='calc-card__total-amt'>0.00</p>
-
+            </div>
           </div>
 
           <div className='calc-card__btn--reset'>Reset</div>
